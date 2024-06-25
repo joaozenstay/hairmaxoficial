@@ -1,0 +1,26 @@
+:root {
+  --fonte: "Montserrat", 'Krona One', 'Open Sans', sans-serif;
+  --gradiente: linear-gradient(180deg, #ffc4fc 0%, rgb(255, 255, 255) 80%);
+  --gradiente-card: linear-gradient(180deg, rgba(247, 220, 255, 0.7) 0%, rgba(202, 212, 250, 0.3) 100%);
+  --rosa-claro: #ffc4fc;
+  --azul-botao: #FF00F2;
+  --lilas-claro: #85A0FF;
+  --lilas-escuro: #0C0421;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+button {
+  background: transparent;
+  border: none;
+}
+
+body {
+  font-family: var(--fonte);
+}

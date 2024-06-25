@@ -1,0 +1,21 @@
+.rodape {
+    background: #ffc4fc;
+    padding: 32px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.rodape .rodape__nav--lista {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px 0;
+}
+
+@media screen and (min-width: 768px) {
+    /* Estilos para desktop (não fornecidos, apenas ajuste para mobile foi feito) */
+    .rodape {
+        padding: 32px 60px;
+        font-size: 18px;
+    }
+}
